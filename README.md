@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Pandas Foundations
 
 You can use the [editor on GitHub](https://github.com/hrkj-18/pandas-foundations/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
