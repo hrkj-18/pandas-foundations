@@ -134,9 +134,46 @@ plt.show()
 >>|2|                   76.4|
 
 >>![Plotting Series with Pandas Example Sample Graph](/img/plotting-series-using-pandas-example.png)
-```python
 
+### Plotting DataFrames
+
+```python
+print(df.head())
 ```
+>>| |  Temperature (deg F)|  Dew Point (deg F)|  Pressure (atm)|
+>>|---|---|---|---|
+>>|0|                 79.0|               70.8|             1.0|
+>>|1|                 77.4|               71.2|             1.0|
+>>|2|                 76.4|               71.3|             1.0|
+>>|3|                 75.7|               71.4|             1.0|
+>>|4|                 75.1|               71.4|             1.0|
+
+```python
+df.plot()
+plt.show()
+```
+>>![Plotting the whole DataFrame](/img/plotting-dataframes-1.png)
+
+```python
+df.plot(subplots=True)
+plt.show()
+```
+>>![Plotting the columns separately](/img/plotting-dataframes-2.png)
+
+```python
+column_list1 = ['Dew Point (deg F)']
+df[column_list1].plot()
+plt.show()
+```
+>>![Plotting only one column](/img/plotting-dataframes-3.png)
+
+```python
+column_list2 = ['Temperature (deg F)','Dew Point (deg F)']
+df[column_list2].plot()
+plt.show()
+```
+>>![Plotting multiple columns together](/img/plotting-dataframes-4.png)
+
 ```python
 
 ```
