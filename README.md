@@ -32,7 +32,8 @@ data = dict(zipped)
 df = pd.DataFrame(data)
 print(df)
 ```
->>[('Country', ['United States', 'Soviet Union', 'United Kingdom']), ('Total', [1118, 473, 273])] <br>
+>>[ ( 'Country', [ 'United States', 'Soviet Union', 'United Kingdom' ] ), ( 'Total', [1118, 473, 273] ) ] <br>
+
 >>| |         Country|  Total|
 >>|---|---|---|
 >>|0|   United States|   1118|
@@ -104,7 +105,8 @@ df2.to_excel('file_clean.xlsx', index=False)
 >>Probably should just throw this line away too but not the next since those are column labels <br> 
 >>name Jan Feb Mar Apr May Jun Jul Aug SepOct No...NaN <br>                        
 >>\# So that line you just read has all the column...NaN <br>                        
->>IBM 156.08 160.01 159.81 165.22 172.25 167.15 1...NaN <br>                        
+>>IBM 156.08 160.01 159.81 165.22 172.25 167.15 1...NaN <br>  
+
 >>| |    name|     Jan|     Feb|  ...|     Nov|     Dec|
 >>|---|---|---|---|---|---|---|
 >>|0|     IBM|  156.08|  160.01|  ...|  137.21|  137.96|
