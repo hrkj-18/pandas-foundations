@@ -174,6 +174,40 @@ plt.show()
 ```
 >>![Plotting multiple columns together](/img/plotting-dataframes-4.png)
 
+### Chapter 2
+
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
+
 ```python
 
 ```
