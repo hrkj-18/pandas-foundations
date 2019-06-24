@@ -130,7 +130,7 @@ plt.show()
 >>|0|                   79.0|
 >>|1|                   77.4|
 >>|2|                   76.4|
->><br>
+
 >>![Plotting Series with Pandas Example Sample Graph](/img/plotting-series-using-pandas-example.png)
 ```python
 
